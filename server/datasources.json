@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mean": {
+    "name": "mean",
+    "connector": "mongodb",
+    "port": "27017",
+    "database": "mean",
+    "host":"localhost"
+  }
+}
