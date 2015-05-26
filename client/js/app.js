@@ -3,7 +3,7 @@ app
     .constant('ENDPOINT', 'http://localhost:3000/api/')
     .service('ItemsModel', ItemsModel)
     .controller('MainController', MainController)
-
+ 
 function ItemsModel($http, ENDPOINT) {
     var service = this;
     path = 'items/'
